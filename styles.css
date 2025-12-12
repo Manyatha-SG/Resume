@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    background: #444;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.content {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* Biodata Table */
+.biodata-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.biodata-table th,
+.biodata-table td {
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+.biodata-table th {
+    background-color: #ddd;
+}
+
+/* JavaScript color change class */
+.bg-change {
+    background-color: #ffe7ad !important;
+}
